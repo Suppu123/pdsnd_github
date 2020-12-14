@@ -191,7 +191,7 @@ def user_stats(df, city):
         print('Most recent birth from the given fitered data is: {}\n'.format(most_recent_birth))
         print('Most common birth from the given fitered data is: {}\n'.format(most_common_birth) )
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds" % (time.time() - start_time))
     print('-'*40)
 
 
