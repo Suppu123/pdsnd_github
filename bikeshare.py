@@ -22,7 +22,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_name = ''
     while city_name.lower() not in CITY_DATA:
-        city_name = input("\nWhat is the name of the city to analyze data? (E.g. Enter either chicago, new york city, washington)\n")
+        city_name = input("\nWhat is the name of the city to analyze the data? (E.g. Enter either chicago, new york city, washington)\n")
         if city_name.lower() in CITY_DATA:
             #We were able to get the name of the city to analyze data.
             city = CITY_DATA[city_name.lower()]
